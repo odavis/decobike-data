@@ -1,7 +1,6 @@
-# Decobike Bike Data Scraper
+# Decobike Bike Data
 
-Scrapes the decobike xml bike data file (http://www.decobike.com/playmoves.xml
-). The xml file displays  station locations, number of bikes, and open slots. Script spits out a timestamp csv file.
+Stores the decobike xml bike data file (http://www.decobike.com/playmoves.xml
+) into a csv file. The xml file displays  station locations, number of bikes, and open slots.
 
-Use with care
 
