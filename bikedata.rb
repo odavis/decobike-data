@@ -16,7 +16,7 @@ doc.search('location').each do |location|
 end
 
 #writes CSV file with parsed data
-CSV.open("bikedata-#{Time.now}.csv", 'wb') do |csv|
+CSV.open("./data/bikedata-#{Time.now}.csv", 'wb') do |csv|
   csv << doc.at('location').search('*').map(&:name)
   doc.search('location').each do |x|
     csv << x.search('*').map(&:text)
